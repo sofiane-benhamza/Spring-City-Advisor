@@ -6,7 +6,6 @@ all/cities/GetPopulation.class
 all/users/UserController.class
 all/users/UserService.class
 all/cities/CheckCity.class
-all/cities/GetHistoricalEvents.class
 all/cities/GetWeather.class
 all/cities/GlobalExceptionHandler.class
 all/cities/CodeApplication.class

@@ -1,9 +1,8 @@
+#spring boot needs JDK
 FROM openjdk:latest
 
+#specifiy working dir inside image db_city_advisor
 WORKDIR /app
-
-# Copy the cities.csv file to the correct directory
-COPY src/main/java/all/code/cities.csv src/main/java/all/code/
 
 # Copy the JAR file from the target directory
 COPY target/city_advisor_production.jar .
